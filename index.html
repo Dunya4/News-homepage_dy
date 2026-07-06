@@ -1,60 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <main class="container">
+      <div class="news_homepage">
+      <nav class="navbar">
+        <img class="navbar_image" src="assets/images/logo.svg" alt="logo">
+        <div class="nav">
+          <a href="" >Home</a>
+          <a href="">New</a>
+          <a href=""> Popular</a>
+          <a href="">Trending</a>
+          <a href="">Categories</a>
+        </div>
+      </nav>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Home
-  New
-  Popular
-  Trending
-  Categories
+      <section class="content">
+        <div class="content_left">
+          <div class="content_img">
+            <img src="assets/images/image-web-3-desktop.jpg" alt>
+          </div>
+          <div class="content_text">
+            <h1 class="content_main">The Bright Future of Web 3.0?</h1>
+            <div class="content_part">
+              <p>We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?</p>
+                <button>Read more</button>
+            </div>
+          </div>
+        </div>
 
-  The Bright Future of Web 3.0?
+        <div class="content_right">
+        <h2>New </h2>
+        <div class="content_questions">
+          <h3> Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+        <div class="content_questions">
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        
+        <div class="content_questions">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+        </div>
+     </section>
 
-  Read more
+<div class="content_three">
 
-  New 
+        <div class="content_bottom">
+       <div class="bottom_img">
+       <img src="assets/images/image-retro-pcs.jpg" alt="">
+       </div>
+       <div class="bottom_text">
+       <h2>01</h2>
+       <h3>Reviving Retro PCs</h3>
+       <p> What happens when old PCs are given modern upgrades?</p>
+      </div>
+        </div>
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+        <div class="content_bottom">
+       <div class="bottom_img">
+      <img src="assets/images//image-top-laptops.jpg" alt="">
+       </div>
+       <div class="bottom_text">
+       <h2>02</h2>
+       <h3> Top 10 Laptops of 2022</h3>
+       <p>Our best picks for various needs and budgets.</p>
+      </div>
+        </div>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
-</body>
+        <div class="content_bottom">
+       <div class="bottom_img">
+       <img src="assets/images/image-gaming-growth.jpg" alt="">
+       </div>
+       <div class="bottom_text">
+       <h2>03</h2>
+       <h3>The Growth of Gaming</h3>
+       <p> How the pandemic has sparked fresh opportunities.</p>
+      </div>
+        </div>
+     </div>
+     </div>
+    </main>
+  </body>
 </html>
