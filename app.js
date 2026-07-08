@@ -14,3 +14,4 @@ exit_button.addEventListener("click", function () {
     mobile_button.classList.remove("hidden");
     nav_mobile.classList.remove("active");
 })
+
